@@ -1,0 +1,302 @@
+---
+title: "Zicht op LA"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: yeti
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Work book   { .storyboard}
+=====================================
+
+### Executive Summary Zopla Project 
+
+#### Doelstelling
+
+Welke toekomst ziet de UvA-organisatie voor Learning Analytics? Deze vraag staat
+centraal in dit project. Door het beantwoorden van de vraag wordt er richting gegeven aan
+de invulling van het thema learning analytics binnen de portefeuille onderwijs van de
+expertisegroep ICT voor Onderwijs UvA in 2017. In het advies ICT-projectenportfolio 2017
+UvA wordt de potentie van learning analytics herkend en wordt geconstateerd dat er binnen
+de UvA-organisatie onvoldoende draagvlak is voor een grootschalige implementatie van
+learning analytics. De expertisegroep heeft in januari 2017 de richting vastgesteld voor
+2017. In deze PID wordt de vastgestelde richting verder uitgewerkt.
+
+####  Resultaten
+In 2017 willen we de volgende resultaten bereiken (conform het memo zoals vastgesteld in
+de expertisegroep ICT voor Onderwijs UvA in 2017):
+
+* Zicht op learning analytics. In 2017 hebben de faculteiten een idee wat learning
+analytics is, of faculteiten het willen inzetten en in welk tempo faculteiten dit zouden
+willen doen. Op basis van dit inzicht wordt duidelijk wat er op instellingsniveau nodig is,
+zodanig dat we eind 2017 goed onderbouwd uitspraken kunnen doen over welke weg
+we de komende jaren inslaan met learning analytics. We verwoorden en verbeelden dit
+inzicht communicatief en het bevat een roadmap/actieplan.
+
+* Betrokkenheid bij learning analytics. Onderwijsdirecteuren, docenten en studenten
+hebben inzicht in de thema’s learning analytics / student analytics en begrijpen welke
+mogelijkheden learning analytics biedt en wat er nodig is om deze mogelijkheden
+beschikbaar te stellen. Learning Analytics is voor velen binnen de UvA nog een diffuus
+begrip. Het is niet moeilijk om te voorspellen dat er bij de studenten (via CSR) maar ook
+bij docenten (via COR) veel vragen zullen rijzen over privacy en veiligheid van
+gegevens, nut en noodzaak en evidentie.
+
+* Opbouw van sociale infrastructuur. Op basis van deze visie vindt binnen de
+faculteiten de start plaats van het opbouwen van een sociale infrastructuur voor
+learning analytics.
+
+* Inrichting Canvas. De mogelijkheden van Canvas zijn verkend en er is een voorstel
+geformuleerd voor de inrichting van Canvas m.b.t. learning analytics.
+
+* Synergie UvAData en learning analytics. Er is een antwoord geformuleerd op de
+vraag: Wat is de synergie tussen UvAdata en learning analytics? Velen menen dat we
+met UvAdata en UvAQ al voldoende data beschikbaar hebben om het studeergedrag te
+kunnen analyseren. Er is tot een vorm van afstemming en samenwerking gekomen op
+de raakvlakken tussen UvAdata en de ontwikkelingen rond learning analytics.
+
+* Formuleren projecten voor 2018. Medio 2017 is er een grove roadmap opgesteld die
+in het najaar van 2017 kan worden uitgewerkt naar projecten voor het portfolio voor het
+jaar 2018.
+
+#### Bereik
+
+Dit project vraagt betrokkenheid van alle faculteiten (met name onderwijsdirecteuren en
+medewerkers betrokken bij data-driven beleid- en besluitvorming en toepassingen
+gerelateerd aan learning analytics) en ICTS. Dit project heeft niet als resultaat een dienst
+die door faculteiten kan worden afgenomen.
+
+
+### Introduction to the interview 
+
+Vanuit het UvA brede project Zicht op Learning Analytics (ZOPLA), een project geïnitieerd door de (voorzitter van de) expertisegroep Onderwijs Peter van Baalen (vice-provost, onderwijsinnovatie met ICT), wordt onderzocht en in kaart gebracht welke mogelijkheden Learning Analytics biedt voor de UvA en wat de verwachtingen en wensen vanuit het onderwijsmanagement zijn.
+ 
+Voor de doelstelingen van het ZOPLA project is learning analytics gedefinieerd als het genereren van aanbevelingen aan studenten om hun onderwijs en gerelateerde uitkomsten te optimaliseren[i].
+ 
+De UvA heeft inmiddels ervaring opgedaan met bottom up learning analytics experimenten, maar nog geen overkoepelende visie op de toekomst van Learning Analytics en de mogelijkheden die het biedt om evidentie te genereren voor de effectiviteit van onderwijspraktijken en interventies.
+ 
+Wij willen graag met u in gesprek om mee te denken over de mogelijkheden en onmogelijkheden die Learning Analytics voor het UvA Onderwijs kan bieden. Vanuit het project is bijzondere interesse in de uitdagingen die onderwijs- en opleidingsdirecteuren zien bij het effectief en verantwoordelijk implementeren van Learning Analytics.
+
+In het gesprek zullen de volgende thema’s aan bod komen:
+
+(@) Wat is Learning Analytics precies en wat is het niet?
+(@) Rol van Learning Analytics bij activerend onderwijs en aansluiting bij de onderwijsvisie van de UvA
+(@) Interventies gericht op het verbeteren van persoonlijk studie succes door middel van data
+(@) Privacy kwesties en transparantie; wetgeving & ethiek; creëren van een veilige en betrouwbare omgeving
+(@) Evenwicht tussen investeringen (in mensen en benodigde financiën) en impact
+
+
+
+### LA 101 / Glossary
+
+“the measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimizing learning and the environments in which it occurs”. (George Siemens)
+
+#### What does the definition imply
+
+LA is focussed on using data to understand how students are learning, design interventions that help the students and supports teacher, later measuring the impact of the interventions. This is a cycle that optimizes learning environments and the educational process in general.
+
+### Scoping of Learning analytics at UvA
+
+
+
+***Monitoring and analysis:*** In monitoring the objectives are to track student activities and generate reports in order to support decision-making by the teacher or the educational institution. Monitoring is also related to instructional design and refers to the evaluation of the learning process by the teacher with the purpose of continuously improving the learning environment. Examining how students use a learning system and analyzing student accomplishments can help teachers detect patterns and make decision on the future design of the learning activity.
+
+***Prediction and intervention:*** In prediction, the goal is to develop a model that attempts to predict learner knowledge and future performance, based on his or her current activities and accomplishments. This predictive model can then be used to provide proactive intervention for students who may need additional assistance. The effective analysis and prediction of the learner performance can support the teacher or the educational institution in intervention by suggesting actions that should be taken to help learners improve their performance.
+
+***Tutoring and Mentoring:*** Tutoring is mainly concerned with helping students with their learning (assignments), often very domain-specific and limited to the context of a course. A tutor, for example, supports learners in their orientation and introduction into new learning modules as well as instructions of specific subject matter areas within a course. In tutoring processes the control is with the tutor and the focus is rather on the teaching process. In contrast, mentoring goes beyond tutoring and focuses on supporting the learner throughout the whole process – ideally throughout the whole life, but in reality limited to the time that both mentor and learner are part of the same organization. As part of this support, mentors provide guidance in career planning, supervise goal achievement, help preparing new challenges, etc. In mentoring processes the control lies rather with the learners and the focus is on the learning process.
+
+***Assessment and feedback:*** The objective is to support the (self-)assessment of improved efficiency and effectiveness of the learning process. Important is also to get intelligent feedback to both students and teachers/mentors. Intelligent feedback provides interesting information generated based on data about the user's interests and the learning context.
+
+***Adaptation: Adaptation:*** is triggered by the teacher/tutoring system or the educational institution. The goal of LA here is to tell learners what to do next by adaptively organizing learning resources and instructional activities according to the needs of the individual learner.
+
+Personalization and recommendation: In personalization, LA is highly learner-centric, focusing on how to help learners decide on their own learning and continuously shape their PLEs to achieve their learning goals. A PLE-driven approach to learning suggests a shift in emphasis from a knowledge-push to a knowledge-pull learning model. In a learning model based on knowledge-push, the information flow is directed by the institution/teacher. In a learning model driven by knowledge-pull, the learner navigates toward knowledge. One concern with knowledge-pull approaches, though, is information overload. It thus becomes crucial to examine some mechanisms to help learners cope with the information overload problem. This is where recommender systems can play a crucial role to foster self-directed learning. The objective of LA in this case is to help learners decide what to do next by recommending to learners explicit knowledge nodes (i.e. learning resources) and tacit knowledge nodes (i.e. people), based on their preferences and activities of other learners with similar preferences.
+
+***Reflection:*** Analytics can be a valuable tool to promote reflection. Students and teachers can benefit from data compared within the same course, across classes, or even across institutions to draw conclusions and (self-)reflect on the effectiveness of their learning or teaching practice. Learning by reflection (or reflective learning) offers the chance of learning by returning to and evaluating past work and personal experiences in order to improve future experiences and promote continuous learning.
+
+### Current use of Educational data @ UvA
+
+#### Academic Analytics (UvAData) 
+
+Is gericht op het monitoren van de organisatie en de organisatiedelen (de universiteit, faculteiten en opleidingen). Academic Analytics krijgt informatie uit de belangrijkste bronsysyemen (waaronder SISUvA, SAP, UVAQ). Het geeft antwoord op generieke vragen als hoeveel studenten een bepaalde opleidingen volgen, hoe studenten hebben binnen periode x de opleiding afgerond, wat is de gemiddelde waardering van de studenten voor de opleiding, vak en/of voorzieningen. Academic analytics levert informatie voor het duurzaam besturen van de universiteit en de opleidingen en richt zich niet op de prestaties en gegevens van de individuele student of medewerker.
+
+
+
+####Synergie UvAData en learning analytics.
+
+Er is een antwoord geformuleerd op de vraag: Wat is de synergie tussen Institutional Research, UvAdata, en learning analytics? UvAData is meer gericht op het verstrekken van management informatie, en daarmee mogelijk minder geschikt (ook vanwege het aggregatieniveau van de data) om aanbevelingen te genereren richting individuele studenten. Sommigen menen dat we met UvAdata en UvAQ al voldoende data beschikbaar hebben om het studeergedrag te kunnen analyseren. Er is tot een vorm van afstemming en samenwerking gekomen op de raakvlakken tussen UvAdata en de ontwikkelingen rond learning analytics.
+
+### Examples of Educational Systems at UvA
+
+####	SISUvA
+
+SIS is het studenteninformatiesysteem van de UvA. Hierin kunnen studenten:
+o	zich aanmelden voor vakken en tentamens
+o	hun studieresultaten, studievoortgang en studieadviezen bekijken
+o	verzoekschriften indienen
+o	een diploma aanvragen.
+SIS stelt studenten én de UvA in staat om te zien welke administratieve taken studenten uitvoeren.
+(https://medewerker.uva.nl/bestuursstaf-gde/shared-content-secured/medewerkersites/uva-medewerkers/nl/az/sis/sis.html)
+
+
+####	UvAData
+
+De UvA heeft een online managementinformatiesysteem. Dit is UvAdata, het ‘datawarehouse' van de UvA, een systeem dat continu in ontwikkeling is.
+
+Bestuurders, managers en andere, daartoe geautoriseerde gebruikers kunnen hier online veel vergelijkende overzichten inzien plus detailgegevens over studenten en personeel, onderwijs, financiën en huisvesting. Ook vinden zij hier gegevens over organisatiedelen en processen die relevant zijn voor het besturen en managen van de universiteit. Deze gegevens zijn zowel afkomstig uit de eigen concernadministraties als uit externe bronnen (VSNU, CBS).
+
+(https://medewerker.uva.nl/content-secured/az/uvadata/uvadata.html)
+
+
+####	UvAQ
+
+UvA Q is de evaluatiemethode die door de UvA wordt gebruikt voor haar onderwijsevaluaties en is daarmee een belangrijk instrument om de kwaliteit van het onderwijs te bewaken en te verbeteren.
+
+(https://medewerker.uva.nl/bestuursstaf-gde/shared-content-secured/medewerkersites/uva-medewerkers/nl/az/uva-q/uva-q.html)
+
+####	DLO – Canvas
+
+Wat biedt Canvas docenten en studenten? 
+Activerend, samenwerkend en gepersonaliseerd leren
+Canvas biedt functionaliteiten die bijdragen aan verdiepend, activerend, samenwerkend en gepersonaliseerd leren. Studenten kunnen met verrijkte zelfstudie veel in Canvas  voorbereiden. Daardoor is er bij het contactonderwijs meer tijd voor dialoog, opdrachten, en verdieping.
+
+Goede koppeling leertools en op maat per faculteit in te richten
+Canvas is een open standaard systeem waardoor digitale leertools makkelijk geïntegreerd kunnen worden. Het kan per faculteit ‘op maat’ ingericht worden naar de behoeften van de opleidingen. De kern biedt onderwijskundige basisdiensten voor alle faculteiten. De gemeenschappelijke schil bevat digitale leertools die alle faculteiten kunnen gebruiken. In de facultaire schil komen digitale leertools specifiek voor de opleidingen van die faculteit.
+
+Goede koppelingen met IDM, SIS, de Digitale Studiegids en het Rooster
+Canvas krijgt goede koppelingen met onderwijslogistieke systemen, zoals het SIS, de Digitale Studiegids en het Rooster. Hierdoor kunnen docenten en studenten efficiënter werken en studeren.
+
+(http://naarcanvas.uva.nl/aan-de-slag/wat-is-canvas/wat-is-canvas.html)
+
+#### Toetssystemen
+
+De UvA biedt meerdere mogelijkheden om digitale toetsen/tentamens af te nemen bij studenten. Een digitaal tentamen is een tentamen dat met een toetsapplicatie op de computer wordt afgenomen. Het aanbieden van een digitale toets heeft diverse voordelen:
+o	Gesloten vragen kunnen geautomatiseerd nagekeken worden, dit gaat dus sneller.
+o	Er is geen sprake van onleesbare handschriften.
+o	Je kunt gebruikmaken van multimedia en andere functies die bij het schriftelijk afnemen van een toets niet mogelijk zijn.
+Wat ruimer geformuleerd is digitale toetsing het inzetten van ICT-tools in het ontwikkelen, samenstellen, afnemen, beoordelen en analyseren van tentamens. Binnen de toetsapplicatie worden tentamenvragen ontworpen en worden tentamens samengesteld. De studenten ontvangen digitale feedback op hun prestaties. De resultaten van studenten zijn in de toetsapplicatie te analyseren, zoals kwaliteit van de items en de cesuurbepaling.
+Digitaal toetsen omvat de volgende onderdelen:
+o	Een digitale itembank (collectie open en/of gesloten vragen)
+o	Een afnametool voor het online afnemen van tentamens
+o	Digitaal gegenereerde feedback
+o	Digitaal gegenereerde analyse
+(https://medewerker.uva.nl/bestuursstaf-gde/shared-content-secured/medewerkersites/uva-medewerkers/nl/az/digitaal-toetsen/digitaal-toetsen.html)
+
+
+
+
+
+### Scenarios
+
+- Stefan
+
+Here we place some basic information
+
+http://www.laceproject.eu/the-lace-visions-of-the-future-of-learning-analytics/
+
+```{r}
+
+```
+
+
+
+
+### Resources
+
+@ FB - PDF links HERE
+@ FB TIDY UP
+@ AMB - A couple of useful results
+
+Bronnen
+
+Overzicht van artikelen die een overzicht en een beeld geven van de ontwikkelingen in het hoger onderwijs die aansluiten bij de ambities van Zopla voor het inzetten learning analytics als UvA breed instrument.
+
+* Architecting for Learning Analytics, innovation for Sustainable Impact (Educause Review, March/April 2018); Simon J. Buckingham Shum and Timothy A. McKay, ER182101.pdf
+
+* Penetrating the Fog, Analytics in Learning and Education, Educause review (sept-okt 2011) Phil Long and George Siemens; ERM1151.pdf
+
+ Artikel van enige tijd terug dat een basiselementen beschrijft waar de Learning Analytics Community in jaren daarna invulling aan heeft gegeven. Artikel kan gezien worden als een eerste aanzet om de ontwikkelingen rond Learning Analytics in een breder perspectief te plaatsen en toegankelijk te maken voor een breder publiek in het Hoger Onderwijs
+
+* LACE / Shiella 
+
+* How Personalized Learning Unlocks Student Success, Educause review (maart – april 2016) Nazeema Alli, Rahim Rajan, and Greg Ratliff
+
+* De belofte van learning analytics is vooral gekoppeld aan Student Success. Dit artikel beschrijft een aantal ontwikkelingen uitdagingen die bij kunnen dragen aan student succes
+
+* Learning Analytics in Higher Education, A review of UK and international practice (April 2016)
+
+* Uitgebreid overzicht …. · Learning Analytics website SURF, https://www.surf.nl/themas/onderwijsinnovatie-met-ict/learning-analytics
+
+* Online Report by Jisc, “Code of practice for learning analytics, Setting out the responsibilities of educational institutions to ensure that learning analytics is carried out responsibly, appropriately and effectively.” https://www.jisc.ac.uk/guides/code-of-practice-for-learning-analytics
+
+#### MAIN Conferences on LA in 2018 / 2019
+
+SURF onderwisjdagen
+LSAC
+LAK
+Hackathon
+
+
+
+Scenarios   { .storyboard}
+=====================================
+
+### Introduction to the Scenario's
+
+- Sidebar table of contents for the storyboard
+
+### Scenario 1: Monitoring of classrooms
+
+***In 2025, classrooms monitor the physical environment to support learning and teaching***
+
+In 2015, learning analytics were mainly used to support online learning. By 2025, they can be used to support most teaching and learning activities, wherever these take place. Furniture, pens, writing pads – almost any tool used during learning – can be fitted with sensors. These can record many sorts of information, including tilt, force and position. Video cameras using facial recognition are able to track individuals as they learn. These cameras monitor movements, and record exactly how learners work with and manipulate objects. All this information is used to monitor learners’ progress. Individuals are supported in learning a wide range of physical skills. Teachers are alerted to signs of individual learner’s boredom, confusion, and deviation from task. Teachers and managers are able to monitor social interactions, and to identify where they should nurture socialisation and cooperative behaviour.
+
+### Scenario 2
+
+### Scenario 3
+
+### Scenario 4
+
+### Scenario 5
+
+### Scenario 6
+
+### Scenario 7
+
+### Scenario 8
+
+### UvA 1
+
+- Stefan
+
+### UvA 2
+
+- Stefan
+
+### UvA 3
+
+- Stefan
+
+
+
+
+
+
+
+
+Who are we?
+=====================================
+
+(@) Stefan T Mol
+(@) Frank Benneker
+(@) Sjoukje Keemans
+(@) Alan M Berg
+
+- Google map visualisation here
+
+```{r}
+
+```
