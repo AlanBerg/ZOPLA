@@ -321,13 +321,28 @@ In 2015, learners in educational institutions and in businesses had to follow a 
 Who are we?
 =====================================
 
-(@) Stefan T Mol
-(@) Frank Benneker
-(@) Sjoukje Keemans
-(@) Alan M Berg
+#### Core Team
 
-- Google map visualisation here
+1. ***Stefan T Mol*** \
+   Primary investigator\
+   
+   
+2. ***Frank Benneker***\
+   Placeholder\
+   
+   
+3. ***Sjoukje Keemans***\
+  Placeholder\
+  
 
-```{r}
+4. ***Alan M Berg*** \
+   Data Scientist, PhD Candidate Learning Analytics
 
-```
+#### Contact
+
+* Primary ***contact***: \
+              Stefan T Mol\
+              \
+* For LA ***technological reviews***: \
+              Alan M Berg\
+              a.m.berg AT uva.nl\
