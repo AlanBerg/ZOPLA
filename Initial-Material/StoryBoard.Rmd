@@ -2,16 +2,18 @@
 title: "Zicht op LA"
 output: 
   flexdashboard::flex_dashboard:
+    storyboard: true
     orientation: columns
     vertical_layout: fill
     theme: bootstrap
+    
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 ```
 
-Work book   { .storyboard}
+Introduction to LA & Zopla {.storyboard}
 =====================================
 
 ### Executive Summary Zopla Project 
@@ -39,7 +41,7 @@ we de komende jaren inslaan met learning analytics. We verwoorden en verbeelden 
 inzicht communicatief en het bevat een roadmap/actieplan.
 
 * Betrokkenheid bij learning analytics. Onderwijsdirecteuren, docenten en studenten
-hebben inzicht in de thema’s learning analytics / student analytics en begrijpen welke
+hebben inzicht in de thema???s learning analytics / student analytics en begrijpen welke
 mogelijkheden learning analytics biedt en wat er nodig is om deze mogelijkheden
 beschikbaar te stellen. Learning Analytics is voor velen binnen de UvA nog een diffuus
 begrip. Het is niet moeilijk om te voorspellen dat er bij de studenten (via CSR) maar ook
@@ -73,7 +75,7 @@ die door faculteiten kan worden afgenomen.
 
 ### Introduction to the interview 
 
-Vanuit het UvA brede project Zicht op Learning Analytics (ZOPLA), een project geïnitieerd door de (voorzitter van de) expertisegroep Onderwijs Peter van Baalen (vice-provost, onderwijsinnovatie met ICT), wordt onderzocht en in kaart gebracht welke mogelijkheden Learning Analytics biedt voor de UvA en wat de verwachtingen en wensen vanuit het onderwijsmanagement zijn.
+Vanuit het UvA brede project Zicht op Learning Analytics (ZOPLA), een project ge??nitieerd door de (voorzitter van de) expertisegroep Onderwijs Peter van Baalen (vice-provost, onderwijsinnovatie met ICT), wordt onderzocht en in kaart gebracht welke mogelijkheden Learning Analytics biedt voor de UvA en wat de verwachtingen en wensen vanuit het onderwijsmanagement zijn.
  
 Voor de doelstelingen van het ZOPLA project is learning analytics gedefinieerd als het genereren van aanbevelingen aan studenten om hun onderwijs en gerelateerde uitkomsten te optimaliseren[i].
  
@@ -81,19 +83,19 @@ De UvA heeft inmiddels ervaring opgedaan met bottom up learning analytics experi
  
 Wij willen graag met u in gesprek om mee te denken over de mogelijkheden en onmogelijkheden die Learning Analytics voor het UvA Onderwijs kan bieden. Vanuit het project is bijzondere interesse in de uitdagingen die onderwijs- en opleidingsdirecteuren zien bij het effectief en verantwoordelijk implementeren van Learning Analytics.
 
-In het gesprek zullen de volgende thema’s aan bod komen:
+In het gesprek zullen de volgende thema???s aan bod komen:
 
 (@) Wat is Learning Analytics precies en wat is het niet?
 (@) Rol van Learning Analytics bij activerend onderwijs en aansluiting bij de onderwijsvisie van de UvA
 (@) Interventies gericht op het verbeteren van persoonlijk studie succes door middel van data
-(@) Privacy kwesties en transparantie; wetgeving & ethiek; creëren van een veilige en betrouwbare omgeving
-(@) Evenwicht tussen investeringen (in mensen en benodigde financiën) en impact
+(@) Privacy kwesties en transparantie; wetgeving & ethiek; cre??ren van een veilige en betrouwbare omgeving
+(@) Evenwicht tussen investeringen (in mensen en benodigde financi??n) en impact
 
 
 
 ### LA 101 / Glossary
 
-“the measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimizing learning and the environments in which it occurs”. (George Siemens)
+???the measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimizing learning and the environments in which it occurs???. (George Siemens)
 
 #### What does the definition imply
 
@@ -107,7 +109,7 @@ LA is focussed on using data to understand how students are learning, design int
 
 ***Prediction and intervention:*** In prediction, the goal is to develop a model that attempts to predict learner knowledge and future performance, based on his or her current activities and accomplishments. This predictive model can then be used to provide proactive intervention for students who may need additional assistance. The effective analysis and prediction of the learner performance can support the teacher or the educational institution in intervention by suggesting actions that should be taken to help learners improve their performance.
 
-***Tutoring and Mentoring:*** Tutoring is mainly concerned with helping students with their learning (assignments), often very domain-specific and limited to the context of a course. A tutor, for example, supports learners in their orientation and introduction into new learning modules as well as instructions of specific subject matter areas within a course. In tutoring processes the control is with the tutor and the focus is rather on the teaching process. In contrast, mentoring goes beyond tutoring and focuses on supporting the learner throughout the whole process – ideally throughout the whole life, but in reality limited to the time that both mentor and learner are part of the same organization. As part of this support, mentors provide guidance in career planning, supervise goal achievement, help preparing new challenges, etc. In mentoring processes the control lies rather with the learners and the focus is on the learning process.
+***Tutoring and Mentoring:*** Tutoring is mainly concerned with helping students with their learning (assignments), often very domain-specific and limited to the context of a course. A tutor, for example, supports learners in their orientation and introduction into new learning modules as well as instructions of specific subject matter areas within a course. In tutoring processes the control is with the tutor and the focus is rather on the teaching process. In contrast, mentoring goes beyond tutoring and focuses on supporting the learner throughout the whole process ??? ideally throughout the whole life, but in reality limited to the time that both mentor and learner are part of the same organization. As part of this support, mentors provide guidance in career planning, supervise goal achievement, help preparing new challenges, etc. In mentoring processes the control lies rather with the learners and the focus is on the learning process.
 
 ***Assessment and feedback:*** The objective is to support the (self-)assessment of improved efficiency and effectiveness of the learning process. Important is also to get intelligent feedback to both students and teachers/mentors. Intelligent feedback provides interesting information generated based on data about the user's interests and the learning context.
 
@@ -138,15 +140,15 @@ o	zich aanmelden voor vakken en tentamens
 o	hun studieresultaten, studievoortgang en studieadviezen bekijken
 o	verzoekschriften indienen
 o	een diploma aanvragen.
-SIS stelt studenten én de UvA in staat om te zien welke administratieve taken studenten uitvoeren.
+SIS stelt studenten ??n de UvA in staat om te zien welke administratieve taken studenten uitvoeren.
 (https://medewerker.uva.nl/bestuursstaf-gde/shared-content-secured/medewerkersites/uva-medewerkers/nl/az/sis/sis.html)
 
 
 ####	UvAData
 
-De UvA heeft een online managementinformatiesysteem. Dit is UvAdata, het ‘datawarehouse' van de UvA, een systeem dat continu in ontwikkeling is.
+De UvA heeft een online managementinformatiesysteem. Dit is UvAdata, het ???datawarehouse' van de UvA, een systeem dat continu in ontwikkeling is.
 
-Bestuurders, managers en andere, daartoe geautoriseerde gebruikers kunnen hier online veel vergelijkende overzichten inzien plus detailgegevens over studenten en personeel, onderwijs, financiën en huisvesting. Ook vinden zij hier gegevens over organisatiedelen en processen die relevant zijn voor het besturen en managen van de universiteit. Deze gegevens zijn zowel afkomstig uit de eigen concernadministraties als uit externe bronnen (VSNU, CBS).
+Bestuurders, managers en andere, daartoe geautoriseerde gebruikers kunnen hier online veel vergelijkende overzichten inzien plus detailgegevens over studenten en personeel, onderwijs, financi??n en huisvesting. Ook vinden zij hier gegevens over organisatiedelen en processen die relevant zijn voor het besturen en managen van de universiteit. Deze gegevens zijn zowel afkomstig uit de eigen concernadministraties als uit externe bronnen (VSNU, CBS).
 
 (https://medewerker.uva.nl/content-secured/az/uvadata/uvadata.html)
 
@@ -157,17 +159,17 @@ UvA Q is de evaluatiemethode die door de UvA wordt gebruikt voor haar onderwijse
 
 (https://medewerker.uva.nl/bestuursstaf-gde/shared-content-secured/medewerkersites/uva-medewerkers/nl/az/uva-q/uva-q.html)
 
-####	DLO – Canvas
+####	DLO ??? Canvas
 
 Wat biedt Canvas docenten en studenten? 
 Activerend, samenwerkend en gepersonaliseerd leren
 Canvas biedt functionaliteiten die bijdragen aan verdiepend, activerend, samenwerkend en gepersonaliseerd leren. Studenten kunnen met verrijkte zelfstudie veel in Canvas  voorbereiden. Daardoor is er bij het contactonderwijs meer tijd voor dialoog, opdrachten, en verdieping.
 
 Goede koppeling leertools en op maat per faculteit in te richten
-Canvas is een open standaard systeem waardoor digitale leertools makkelijk geïntegreerd kunnen worden. Het kan per faculteit ‘op maat’ ingericht worden naar de behoeften van de opleidingen. De kern biedt onderwijskundige basisdiensten voor alle faculteiten. De gemeenschappelijke schil bevat digitale leertools die alle faculteiten kunnen gebruiken. In de facultaire schil komen digitale leertools specifiek voor de opleidingen van die faculteit.
+Canvas is een open standaard systeem waardoor digitale leertools makkelijk ge??ntegreerd kunnen worden. Het kan per faculteit ???op maat??? ingericht worden naar de behoeften van de opleidingen. De kern biedt onderwijskundige basisdiensten voor alle faculteiten. De gemeenschappelijke schil bevat digitale leertools die alle faculteiten kunnen gebruiken. In de facultaire schil komen digitale leertools specifiek voor de opleidingen van die faculteit.
 
 Goede koppelingen met IDM, SIS, de Digitale Studiegids en het Rooster
-Canvas krijgt goede koppelingen met onderwijslogistieke systemen, zoals het SIS, de Digitale Studiegids en het Rooster. Hierdoor kunnen docenten en studenten efficiënter werken en studeren.
+Canvas krijgt goede koppelingen met onderwijslogistieke systemen, zoals het SIS, de Digitale Studiegids en het Rooster. Hierdoor kunnen docenten en studenten effici??nter werken en studeren.
 
 (http://naarcanvas.uva.nl/aan-de-slag/wat-is-canvas/wat-is-canvas.html)
 
@@ -206,42 +208,48 @@ http://www.laceproject.eu/the-lace-visions-of-the-future-of-learning-analytics/
 
 ### Resources
 
-@ FB - PDF links HERE
+
 @ FB TIDY UP
 @ AMB - A couple of useful results
 
-Bronnen
+#### Interessante artikelen en websites
 
 Overzicht van artikelen die een overzicht en een beeld geven van de ontwikkelingen in het hoger onderwijs die aansluiten bij de ambities van Zopla voor het inzetten learning analytics als UvA breed instrument.
 
-* Architecting for Learning Analytics, innovation for Sustainable Impact (Educause Review, March/April 2018); Simon J. Buckingham Shum and Timothy A. McKay, ER182101.pdf
+* ***Architecting for Learning Analytic,*** innovation for Sustainable Impact (Educause Review, March/April 2018); Simon J. Buckingham Shum and Timothy A. McKay, https://er.educause.edu/articles/2018/3/architecting-for-learning-analytics-innovating-for-sustainable-impact
 
-* Penetrating the Fog, Analytics in Learning and Education, Educause review (sept-okt 2011) Phil Long and George Siemens; ERM1151.pdf
+* ***Penetrating the Fog, Analytics in Learning and Education,*** Educause review (sept-okt 2011) Phil Long and George Siemens; https://www.educause.edu/ir/library/pdf/ERM1151.pdf ;  Artikel van enige tijd terug dat een basiselementen beschrijft waar de Learning Analytics Community in jaren daarna invulling aan heeft gegeven. Artikel kan gezien worden als een eerste aanzet om de ontwikkelingen rond Learning Analytics in een breder perspectief te plaatsen en toegankelijk te maken voor een breder publiek in het Hoger Onderwijs
 
- Artikel van enige tijd terug dat een basiselementen beschrijft waar de Learning Analytics Community in jaren daarna invulling aan heeft gegeven. Artikel kan gezien worden als een eerste aanzet om de ontwikkelingen rond Learning Analytics in een breder perspectief te plaatsen en toegankelijk te maken voor een breder publiek in het Hoger Onderwijs
+* ***LACE, European Learning Analytics community***  http://www.laceproject.eu/ 
 
-* LACE / Shiella 
+* ***EU Sheila project,*** To assist European universities to become more mature users and custodians of digital data about their students as they learn online, the SHEILA project will build a policy development framework that promotes formative assessment and personalized learning, by taking advantage of direct engagement of stakeholders in the development process. http://sheilaproject.eu/
 
-* How Personalized Learning Unlocks Student Success, Educause review (maart – april 2016) Nazeema Alli, Rahim Rajan, and Greg Ratliff
+* ***How Personalized Learning Unlocks Student Success,*** Educause review (maart-april 2016) Nazeema Alli, Rahim Rajan, and Greg Ratliff; https://er.educause.edu/articles/2016/3/how-personalized-learning-unlocks-student-success ; De belofte van learning analytics is vooral gekoppeld aan Student Success. Dit artikel beschrijft een aantal ontwikkelingen uitdagingen die bij kunnen dragen aan student succes
 
-* De belofte van learning analytics is vooral gekoppeld aan Student Success. Dit artikel beschrijft een aantal ontwikkelingen uitdagingen die bij kunnen dragen aan student succes
+* ***Learning Analytics in Higher Education,*** A review of UK and international practice (April 2016) https://analytics.jiscinvolve.org/wp/2016/04/19/learning-analytics-in-higher-education-a-review-of-uk-and-international-practice/
 
-* Learning Analytics in Higher Education, A review of UK and international practice (April 2016)
 
-* Uitgebreid overzicht …. · Learning Analytics website SURF, https://www.surf.nl/themas/onderwijsinnovatie-met-ict/learning-analytics
+* ***SURF Learning Analytics website & landelijke community,*** https://www.surf.nl/themas/onderwijsinnovatie-met-ict/learning-analytics
 
-* Online Report by Jisc, “Code of practice for learning analytics, Setting out the responsibilities of educational institutions to ensure that learning analytics is carried out responsibly, appropriately and effectively.” https://www.jisc.ac.uk/guides/code-of-practice-for-learning-analytics
+* ***Online Report by Jisc, Code of practice for learning analytics,*** Setting out the responsibilities of educational institutions to ensure that learning analytics is carried out responsibly, appropriately and effectively; https://www.jisc.ac.uk/guides/code-of-practice-for-learning-analytics
 
 #### MAIN Conferences on LA in 2018 / 2019
 
-SURF onderwisjdagen
-LSAC
-LAK
-Hackathon
+* SURF onderwisjdagen
+https://www.surfonderwijsdagen.nl/
+
+* LSAC 2018
+http://lsac2018.org/
+
+* LAK
+https://lak19.solaresearch.org/
+
+
+* Hackathon
 
 
 
-Scenarios   { .storyboard}
+LA in 2025   { .storyboard}
 =====================================
 
 ### Introduction to the Scenario's
@@ -254,13 +262,13 @@ See: http://www.laceproject.eu/the-lace-visions-of-the-future-of-learning-analyt
 
 ***In 2025, classrooms monitor the physical environment to support learning and teaching***
 
-In 2015, learning analytics were mainly used to support online learning. By 2025, they can be used to support most teaching and learning activities, wherever these take place. Furniture, pens, writing pads – almost any tool used during learning – can be fitted with sensors. These can record many sorts of information, including tilt, force and position. Video cameras using facial recognition are able to track individuals as they learn. These cameras monitor movements, and record exactly how learners work with and manipulate objects. All this information is used to monitor learners’ progress. Individuals are supported in learning a wide range of physical skills. Teachers are alerted to signs of individual learner’s boredom, confusion, and deviation from task. Teachers and managers are able to monitor social interactions, and to identify where they should nurture socialisation and cooperative behaviour.
+In 2015, learning analytics were mainly used to support online learning. By 2025, they can be used to support most teaching and learning activities, wherever these take place. Furniture, pens, writing pads ??? almost any tool used during learning ??? can be fitted with sensors. These can record many sorts of information, including tilt, force and position. Video cameras using facial recognition are able to track individuals as they learn. These cameras monitor movements, and record exactly how learners work with and manipulate objects. All this information is used to monitor learners??? progress. Individuals are supported in learning a wide range of physical skills. Teachers are alerted to signs of individual learner???s boredom, confusion, and deviation from task. Teachers and managers are able to monitor social interactions, and to identify where they should nurture socialisation and cooperative behaviour.
 
 ### Scenario 2: Personal data tracking
 
 ***In 2025, personal data tracking supports learning***
 
-In 2015, people were beginning to wear devices such as heart-rate monitors and run-trackers as they went about their daily lives. By 2025, sophisticated sensors can gather personal information about factors such as posture, attention, rest, stress, blood sugar, and metabolic rate. People collect this information about their activities, and feed it into programmes of their choice that provide recommendations on how to act in ways that improve their learning. Learners can download the statistics and data that are associated with successful learning in a certain area. Aligning personal data with these ‘ideal’ sets is claimed to help people to master skills as diverse as swimming, driving, carrying out surgery and passing examinations. Academic stars sell programmes using this data to optimise learning for different ages and courses. Business gurus market similar programmes for topics such as presentation skills and workload management. Some learners create and share their own data analysis programmes, which provide recommendations that often include the consumption of high-energy foods and stimulants. The majority of high-school and university students follow self-monitoring programmes, and discuss the merits of these on social media.
+In 2015, people were beginning to wear devices such as heart-rate monitors and run-trackers as they went about their daily lives. By 2025, sophisticated sensors can gather personal information about factors such as posture, attention, rest, stress, blood sugar, and metabolic rate. People collect this information about their activities, and feed it into programmes of their choice that provide recommendations on how to act in ways that improve their learning. Learners can download the statistics and data that are associated with successful learning in a certain area. Aligning personal data with these ???ideal??? sets is claimed to help people to master skills as diverse as swimming, driving, carrying out surgery and passing examinations. Academic stars sell programmes using this data to optimise learning for different ages and courses. Business gurus market similar programmes for topics such as presentation skills and workload management. Some learners create and share their own data analysis programmes, which provide recommendations that often include the consumption of high-energy foods and stimulants. The majority of high-school and university students follow self-monitoring programmes, and discuss the merits of these on social media.
 
 ### Scenario 3: Analytics are rarely used
 
@@ -272,31 +280,31 @@ In 2015, many people hoped that analytics would be able to improve teaching and 
 
 ***In 2025, individuals control their own data***
 
-In 2015, it was not clear who owned educational data, and it was often used without learners’ knowledge. By 2025, most people are aware of the importance and value of their data. Learners control the type and quantity of personal data that they share, and with whom they share it. This includes information about progress, attendance and exam results, as well as data collected by cameras and sensors. Learners can choose to limit the time for which access is allowed, or they can restrict access to specific organisations and individuals. The tools for making these choices are clearly laid out and easy to use. In the case of children, data decisions are made in consultation with parents or carers. If they do not engage with these tools, then no data is shared and no benefits gained. Most educational institutions recognise this as a potential problem, and run campaigns to raise awareness of the both the risks of thoughtless exposure of data, and the benefits to learners of informed sharing of selected educational data.
+In 2015, it was not clear who owned educational data, and it was often used without learners??? knowledge. By 2025, most people are aware of the importance and value of their data. Learners control the type and quantity of personal data that they share, and with whom they share it. This includes information about progress, attendance and exam results, as well as data collected by cameras and sensors. Learners can choose to limit the time for which access is allowed, or they can restrict access to specific organisations and individuals. The tools for making these choices are clearly laid out and easy to use. In the case of children, data decisions are made in consultation with parents or carers. If they do not engage with these tools, then no data is shared and no benefits gained. Most educational institutions recognise this as a potential problem, and run campaigns to raise awareness of the both the risks of thoughtless exposure of data, and the benefits to learners of informed sharing of selected educational data.
 
 ### Scenario 5: Open systems are widely adopted
 
 ***In 2025, open systems for learning analytics are widely adopted***
 
-In 2015, companies produced a range of learning analytics tools, using different approaches and standards. The algorithms and models that companies use are often protected as intellectual property. By 2025, the ‘open learning analytics’ established by the Open Learning Analytics Foundation has made a more joined-up approach possible. Educational organisations see learning analytics as a central element of their IT provision. They demand control over these tools, how they run and what they are used for. The tools they select, although they come from different providers, use open algorithms and share data according to an agreed set of standards that facilitate transparency and independent validation. A set of well-tested, accessible and standardised visualisation methods is commonly used, so that learners and teachers can confidently use a range of tools. Institutions can easily work with a range of providers to design learning analytics systems that support their strategic vision.
+In 2015, companies produced a range of learning analytics tools, using different approaches and standards. The algorithms and models that companies use are often protected as intellectual property. By 2025, the ???open learning analytics??? established by the Open Learning Analytics Foundation has made a more joined-up approach possible. Educational organisations see learning analytics as a central element of their IT provision. They demand control over these tools, how they run and what they are used for. The tools they select, although they come from different providers, use open algorithms and share data according to an agreed set of standards that facilitate transparency and independent validation. A set of well-tested, accessible and standardised visualisation methods is commonly used, so that learners and teachers can confidently use a range of tools. Institutions can easily work with a range of providers to design learning analytics systems that support their strategic vision.
 
 ### Scenario 6: LA systems are essential tools
 
 ***In 2025, learning analytics systems are essential tools of educational management***
 
-In 2015, companies were beginning to develop systems to recommend resources and to predict outcomes. By 2025, these systems are highly developed. A wide range of data about learner behaviour is used to generate good quality, real-time predictions about likely success. Learners, teachers, managers and policymakers all have access to live and accurate information about how well a learner is likely to do. Learners and teachers plan their work on the basis of reliable tools that can produce detailed and personalised recommendations about what should be done to achieve the best learning outcomes. A growing industry offers services to institutions and individuals, advising on how to respond to predictions generated by analytics, and how to take appropriate action in the light of recommendations. Accurate predictive information enables managers and policymakers to expand or contract learning provision before success or failure is evident: you don’t have to wait to see if a course is booming or failing, with funding changes happening quickly.
+In 2015, companies were beginning to develop systems to recommend resources and to predict outcomes. By 2025, these systems are highly developed. A wide range of data about learner behaviour is used to generate good quality, real-time predictions about likely success. Learners, teachers, managers and policymakers all have access to live and accurate information about how well a learner is likely to do. Learners and teachers plan their work on the basis of reliable tools that can produce detailed and personalised recommendations about what should be done to achieve the best learning outcomes. A growing industry offers services to institutions and individuals, advising on how to respond to predictions generated by analytics, and how to take appropriate action in the light of recommendations. Accurate predictive information enables managers and policymakers to expand or contract learning provision before success or failure is evident: you don???t have to wait to see if a course is booming or failing, with funding changes happening quickly.
 
 ### Scenario 7: Most teaching is delegated to computers
 
 ***In 2025, most teaching is delegated to computers***
 
-In 2015, people were beginning to assemble datasets that could represent learner’s activities. By 2025, these are used on a large scale in teaching, and this has led to the development of enormous datasets containing information about hundreds of thousands of learners. Analysing in detail the progress of such a wide variety of learners has made it possible to provide reliable evidence-based recommendations about the most successful routes to learning, as well as identifying the learning materials and approaches that are most suitable for each individual at each point in their progress. These recommendations are better informed and more reliable than those that can be produced by even the best-trained humans. Learners now spend most of their time working with analytics-driven systems, and the role of teachers has been reduced. The evidence generated by the use of these systems drives education policy.
+In 2015, people were beginning to assemble datasets that could represent learner???s activities. By 2025, these are used on a large scale in teaching, and this has led to the development of enormous datasets containing information about hundreds of thousands of learners. Analysing in detail the progress of such a wide variety of learners has made it possible to provide reliable evidence-based recommendations about the most successful routes to learning, as well as identifying the learning materials and approaches that are most suitable for each individual at each point in their progress. These recommendations are better informed and more reliable than those that can be produced by even the best-trained humans. Learners now spend most of their time working with analytics-driven systems, and the role of teachers has been reduced. The evidence generated by the use of these systems drives education policy.
 
 ### Scenario 8: Analytics supports self-directed autonomous learning
 
 ***In 2025, analytics support self-directed autonomous learning***
 
-In 2015, learners in educational institutions and in businesses had to follow a curriculum developed by others. In 2025, they create groups that work together to decide their learning goals and how to achieve these. A ‘Learning Trajectory System’ uses analytics to support information exchange and group collaborations, and learners receive support from mentors, rather than teachers. Activity towards a learning goal is monitored, and analytics provide individuals with feedback on their learning process. This includes suggestions, including peer learners to contact, experts to approach, relevant content, and ways of developing and demonstrating new skills. Formative assessment is used to guide future progress, taking into account individuals’ characteristics, experience and context, replacing exams that show only what students have achieved. Texts and other learning materials are adapted to suit the cultural characteristics of learners, revealed by analysis of their interactions. As a result, learners are personally engaged with their topics, and are motivated by their highly autonomous learning. The competences that they develop are valuable in a society in which collection and analysis of data are the norm. There is also convergence between the learning activities of the education system and the methods used by employees to develop their knowledge and skills.
+In 2015, learners in educational institutions and in businesses had to follow a curriculum developed by others. In 2025, they create groups that work together to decide their learning goals and how to achieve these. A ???Learning Trajectory System??? uses analytics to support information exchange and group collaborations, and learners receive support from mentors, rather than teachers. Activity towards a learning goal is monitored, and analytics provide individuals with feedback on their learning process. This includes suggestions, including peer learners to contact, experts to approach, relevant content, and ways of developing and demonstrating new skills. Formative assessment is used to guide future progress, taking into account individuals??? characteristics, experience and context, replacing exams that show only what students have achieved. Texts and other learning materials are adapted to suit the cultural characteristics of learners, revealed by analysis of their interactions. As a result, learners are personally engaged with their topics, and are motivated by their highly autonomous learning. The competences that they develop are valuable in a society in which collection and analysis of data are the norm. There is also convergence between the learning activities of the education system and the methods used by employees to develop their knowledge and skills.
 
 
 ### UvA Scenario 1:
@@ -328,7 +336,7 @@ Who are we?
    
    
 2. ***Frank Benneker***\
-   Placeholder\
+   UvA Information Manager Education
    
    
 3. ***Sjoukje Keemans***\
@@ -343,6 +351,8 @@ Who are we?
 * Primary ***contact***: \
               Stefan T Mol\
               \
+* Interviews               
+
 * For LA ***technological reviews***: \
               Alan M Berg\
               a.m.berg AT uva.nl\
