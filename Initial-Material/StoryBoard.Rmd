@@ -20,7 +20,7 @@ Introduction to LA & Zopla {.storyboard}
 
 #### Doelstelling
 
-Welke toekomst ziet de UvA-organisatie voor Learning Analytics? Deze vraag staat
+***<span style="color:blue">Welke toekomst ziet de UvA-organisatie voor Learning Analytics?</span>*** Deze vraag staat
 centraal in dit project. Door het beantwoorden van de vraag wordt er richting gegeven aan
 de invulling van het thema learning analytics binnen de portefeuille onderwijs van de
 expertisegroep ICT voor Onderwijs UvA in 2017. In het advies ICT-projectenportfolio 2017
@@ -76,7 +76,7 @@ die door faculteiten kan worden afgenomen.
 
 ### Introduction to the interview 
 
-Vanuit het UvA brede project Zicht op Learning Analytics (ZOPLA), een project ge??nitieerd door de (voorzitter van de) expertisegroep Onderwijs Peter van Baalen (vice-provost, onderwijsinnovatie met ICT), wordt onderzocht en in kaart gebracht welke mogelijkheden Learning Analytics biedt voor de UvA en wat de verwachtingen en wensen vanuit het onderwijsmanagement zijn.
+Vanuit het UvA brede project Zicht op Learning Analytics (ZOPLA), een project ge-initieerd door de (voorzitter van de) expertisegroep Onderwijs Peter van Baalen (vice-provost, onderwijsinnovatie met ICT), wordt onderzocht en in kaart gebracht welke mogelijkheden Learning Analytics biedt voor de UvA en wat de verwachtingen en wensen vanuit het onderwijsmanagement zijn.
  
 Voor de doelstelingen van het ZOPLA project is learning analytics gedefinieerd als het genereren van aanbevelingen aan studenten om hun onderwijs en gerelateerde uitkomsten te optimaliseren[i].
  
@@ -193,9 +193,9 @@ Digitaal toetsen omvat de volgende onderdelen:
 
 ### Scenarios
 
-- Stefan
+If you look above in the menu bar you will notice the ***<span style="color:blue">'LA in 2025'</span>*** option. Here are listed a number of scenarios that are sterotypically plausible for the year 2025.
 
-Here we place some basic information
+You will find the source here:
 
 http://www.laceproject.eu/the-lace-visions-of-the-future-of-learning-analytics/
 
@@ -243,68 +243,66 @@ LA in 2025   { .storyboard}
 
 ### Introduction to the Scenario's
 
-- Sidebar table of contents for the storyboard?
+The following slides include eight generic scenarios and 3 UvA specific. Please consider their implications and any alternative scenarios that come to mind.
 
-See: http://www.laceproject.eu/the-lace-visions-of-the-future-of-learning-analytics/
-
-### Scenario 1: Monitoring of classrooms
+### ***Scenario 1:*** Monitoring of classrooms
 
 ***In 2025, classrooms monitor the physical environment to support learning and teaching***
 
 In 2015, learning analytics were mainly used to support online learning. By 2025, they can be used to support most teaching and learning activities, wherever these take place. Furniture, pens, writing pads  almost any tool used during learning  can be fitted with sensors. These can record many sorts of information, including tilt, force and position. Video cameras using facial recognition are able to track individuals as they learn. These cameras monitor movements, and record exactly how learners work with and manipulate objects. All this information is used to monitor learners progress. Individuals are supported in learning a wide range of physical skills. Teachers are alerted to signs of individual learner's boredom, confusion, and deviation from task. Teachers and managers are able to monitor social interactions, and to identify where they should nurture socialisation and cooperative behaviour.
 
-### Scenario 2: Personal data tracking
+### ***Scenario 2:*** Personal data tracking
 
 ***In 2025, personal data tracking supports learning***
 
 In 2015, people were beginning to wear devices such as heart-rate monitors and run-trackers as they went about their daily lives. By 2025, sophisticated sensors can gather personal information about factors such as posture, attention, rest, stress, blood sugar, and metabolic rate. People collect this information about their activities, and feed it into programmes of their choice that provide recommendations on how to act in ways that improve their learning. Learners can download the statistics and data that are associated with successful learning in a certain area. Aligning personal data with these ideal sets is claimed to help people to master skills as diverse as swimming, driving, carrying out surgery and passing examinations. Academic stars sell programmes using this data to optimise learning for different ages and courses. Business gurus market similar programmes for topics such as presentation skills and workload management. Some learners create and share their own data analysis programmes, which provide recommendations that often include the consumption of high-energy foods and stimulants. The majority of high-school and university students follow self-monitoring programmes, and discuss the merits of these on social media.
 
-### Scenario 3: Analytics are rarely used
+### ***Scenario 3:*** Analytics are rarely used
 
 ***In 2025, analytics are rarely used in education***
 
 In 2015, many people hoped that analytics would be able to improve teaching and learning and the environments where these take place. However, in 2025, it is clear that there are many problems. Courses that are automated by analytics are seen as inferior, and learners have realised that they can game the system. There have been major leaks of sensitive personal data, and it is clear that, even where this has not happened, many companies have misused the data generated by their analytics. Many governments have ruled that individuals are the sole owners of the data they generate. All use of data for educational purposes now has to be approved not only by the learner but also by new inspectorates. In practice this has meant that use of analytics is restricted to summative assessment carried out by government agencies. A consensus has emerged in educational policy: the move away from learning analytics is not only ethically desirable it is also educationally effective.
 
-### Scenario 4: Individuals control their own data
+### ***Scenario 4:*** Individuals control their own data
 
 ***In 2025, individuals control their own data***
 
 In 2015, it was not clear who owned educational data, and it was often used without learners knowledge. By 2025, most people are aware of the importance and value of their data. Learners control the type and quantity of personal data that they share, and with whom they share it. This includes information about progress, attendance and exam results, as well as data collected by cameras and sensors. Learners can choose to limit the time for which access is allowed, or they can restrict access to specific organisations and individuals. The tools for making these choices are clearly laid out and easy to use. In the case of children, data decisions are made in consultation with parents or carers. If they do not engage with these tools, then no data is shared and no benefits gained. Most educational institutions recognise this as a potential problem, and run campaigns to raise awareness of the both the risks of thoughtless exposure of data, and the benefits to learners of informed sharing of selected educational data.
 
-### Scenario 5: Open systems are widely adopted
+### ***Scenario 5:*** Open systems are widely adopted
 
 ***In 2025, open systems for learning analytics are widely adopted***
 
 In 2015, companies produced a range of learning analytics tools, using different approaches and standards. The algorithms and models that companies use are often protected as intellectual property. By 2025, the open learning analytics established by the Open Learning Analytics Foundation has made a more joined-up approach possible. Educational organisations see learning analytics as a central element of their IT provision. They demand control over these tools, how they run and what they are used for. The tools they select, although they come from different providers, use open algorithms and share data according to an agreed set of standards that facilitate transparency and independent validation. A set of well-tested, accessible and standardised visualisation methods is commonly used, so that learners and teachers can confidently use a range of tools. Institutions can easily work with a range of providers to design learning analytics systems that support their strategic vision.
 
-### Scenario 6: LA systems are essential tools
+### ***Scenario 6:*** LA systems are essential tools
 
 ***In 2025, learning analytics systems are essential tools of educational management***
 
 In 2015, companies were beginning to develop systems to recommend resources and to predict outcomes. By 2025, these systems are highly developed. A wide range of data about learner behaviour is used to generate good quality, real-time predictions about likely success. Learners, teachers, managers and policymakers all have access to live and accurate information about how well a learner is likely to do. Learners and teachers plan their work on the basis of reliable tools that can produce detailed and personalised recommendations about what should be done to achieve the best learning outcomes. A growing industry offers services to institutions and individuals, advising on how to respond to predictions generated by analytics, and how to take appropriate action in the light of recommendations. Accurate predictive information enables managers and policymakers to expand or contract learning provision before success or failure is evident: you don't have to wait to see if a course is booming or failing, with funding changes happening quickly.
 
-### Scenario 7: Most teaching is delegated to computers
+### ***Scenario 7:*** Most teaching is delegated to computers
 
 ***In 2025, most teaching is delegated to computers***
 
 In 2015, people were beginning to assemble datasets that could represent learner's activities. By 2025, these are used on a large scale in teaching, and this has led to the development of enormous datasets containing information about hundreds of thousands of learners. Analysing in detail the progress of such a wide variety of learners has made it possible to provide reliable evidence-based recommendations about the most successful routes to learning, as well as identifying the learning materials and approaches that are most suitable for each individual at each point in their progress. These recommendations are better informed and more reliable than those that can be produced by even the best-trained humans. Learners now spend most of their time working with analytics-driven systems, and the role of teachers has been reduced. The evidence generated by the use of these systems drives education policy.
 
-### Scenario 8: Analytics supports self-directed autonomous learning
+### ***Scenario 8:*** Analytics supports self-directed autonomous learning
 
 ***In 2025, analytics support self-directed autonomous learning***
 
 In 2015, learners in educational institutions and in businesses had to follow a curriculum developed by others. In 2025, they create groups that work together to decide their learning goals and how to achieve these. A Learning Trajectory System uses analytics to support information exchange and group collaborations, and learners receive support from mentors, rather than teachers. Activity towards a learning goal is monitored, and analytics provide individuals with feedback on their learning process. This includes suggestions, including peer learners to contact, experts to approach, relevant content, and ways of developing and demonstrating new skills. Formative assessment is used to guide future progress, taking into account individuals characteristics, experience and context, replacing exams that show only what students have achieved. Texts and other learning materials are adapted to suit the cultural characteristics of learners, revealed by analysis of their interactions. As a result, learners are personally engaged with their topics, and are motivated by their highly autonomous learning. The competences that they develop are valuable in a society in which collection and analysis of data are the norm. There is also convergence between the learning activities of the education system and the methods used by employees to develop their knowledge and skills.
 
 
-### UvA Scenario 1:
+### ***UvA Scenario 1:***
 
 - Stefan
 
-### UvA Scenario 2:
+### ***UvA Scenario 2:***
 
 - Stefan
 
-### UvA Scenario 3:
+###***UvA Scenario 3:***
 
 - Stefan
 
